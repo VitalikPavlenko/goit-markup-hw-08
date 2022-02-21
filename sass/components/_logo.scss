@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  font-family: Raleway, csans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+
+  &--accent {
+    color: $accent-color;
+  }
+
+  &--dark {
+    color: $logo-dark-text-color;
+  }
+
+  &--light {
+    color: $logo-light-text-color;
+  }
+}

@@ -1,0 +1,41 @@
+.footer {
+  background-color: $background-secondary-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__container {
+    display: flex;
+  }
+  /* -------logo--------*/
+
+  &-left {
+    display: block;
+  }
+
+  &__logo {
+    margin-bottom: 20px;
+  }
+
+  &-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &-link-addr,
+  &-link-mail,
+  &-link-tel {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 500;
+  }
+
+  &-link-addr {
+    color: $primary-white-color;
+  }
+
+  &-link-mail,
+  &-link-tel {
+    color: $text-kontact-footer;
+  }
+}

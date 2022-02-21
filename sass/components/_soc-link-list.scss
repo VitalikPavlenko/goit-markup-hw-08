@@ -1,0 +1,40 @@
+.soc-link-list {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    display: flex;
+    height: 44px;
+    width: 44px;
+  }
+
+  &__icon {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__item + &__item {
+    margin-left: 10px;
+  }
+
+  &__icon-svg {
+    width: 44px;
+    height: 44px;
+    fill: #afb1b8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__icon:hover,
+  &__icon:focus {
+    background-color: $accent-color;
+  }
+
+  &__icon:hover &__icon-svg,
+  &__icon:focus &__icon-svg {
+    fill: $background-wheit-color;
+  }
+}

@@ -1,0 +1,38 @@
+/* цвет основного фона #E5E5E5; */
+/* цвет дополнительного фона #2F303A; */
+/* цвет белого фона #FFFFFF; */
+
+/* цвет акцента #2196F3 */
+/* цвет логотипа темный #000000 */
+/* цвет логотипа светлый #FFFFFF */
+
+/* цвет текста #000000 */
+/* цвет белого текста #000000 */
+/* цвет текста заглавий #212121 */
+/* цвет текста "контактов header" rgba(117, 117, 117, 1) */
+/* цвет текста "контактов footer" rgba(255, 255, 255, 0.6) */
+
+/* анимация  250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+/* цколичество карточек в ряду галереи -3 */
+
+/* --------------------------------------------- Переменные --------------------------------------------------*/
+/*:root {*/
+$background-primary-color: #e5e5e5;
+$background-secondary-color: #2f303a;
+$background-wheit-color: #ffffff;
+
+$accent-color: #18a0fb;
+$logo-dark-text-color: #000000;
+$logo-light-text-color: #ffffff;
+
+$primary-text-color: #757575;
+$primary-white-color: #ffffff;
+$title-text-color: #212121;
+$text-kontact-header: rgba(117, 117, 117, 1);
+$text-kontact-footer: rgba(255, 255, 255, 0.6);
+
+$animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+$number-in-a-row: 3;
+/*}*/

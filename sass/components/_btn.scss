@@ -1,0 +1,14 @@
+button {
+  display: inline-flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  cursor: pointer;
+  border-radius: 4px;
+
+  font-family: inherit;
+  text-align: center;
+
+  border: none;
+  color: $primary-white-color;
+}
